@@ -8,7 +8,7 @@ body {
 
 
     &__bhromaon {
-        background: url(../img/section1.jpg) 50% no-repeat;
+        background: url(/img/section1.jpg) 50% no-repeat;
         background-size: cover;
         padding: 250px 225px 100px;
     }
@@ -18,7 +18,7 @@ body {
         height: 80px;
     }
     &__choose-us {
-        background: url(../img/section_choose.jpg) 50% no-repeat;
+        background: url(/img/section_choose.jpg) 50% no-repeat;
         background-size: cover;
     }
     &__icons {
@@ -28,7 +28,7 @@ body {
     }
     &__book-1 {
         height: 700px;
-        background: url(../img/book_1.jpg) 50% no-repeat;
+        background: url(/img/book_1.jpg) 50% no-repeat;
         background-size: cover;
     }
 }
@@ -202,19 +202,19 @@ a {
             font-family: Josefin Sans;
             color: #e8e8e8;
             font-size: 20px;
-            
+
             font-weight: 400;
             line-height: 1.3;
             text-align: left;
         }
-        &--book{
-        	font-family: Josefin Sans;
-color:  #ffffff;
-font-size: 1.25em;
-font-weight: 400;
-line-height: 1.3;
-text-align: left;
-text-transform:uppercase;
+        &--book {
+            font-family: Josefin Sans;
+            color: #ffffff;
+            font-size: 1.25em;
+            font-weight: 400;
+            line-height: 1.3;
+            text-align: left;
+            text-transform: uppercase;
         }
     }
     &__text {
@@ -226,20 +226,21 @@ text-transform:uppercase;
         line-height: 1.625;
         letter-spacing: 0.3em;
         &--book {
-        	font-family: Josefin Sans, sans-serif;
-color:  #e8e8e8;
-font-size: 1em;/* Приближение из-за подстановки шрифтов */
-font-weight: 400;
-line-height: 1.625;/* Приближение из-за подстановки шрифтов */
-text-align: left;
+            font-family: Josefin Sans, sans-serif;
+            color: #e8e8e8;
+            font-size: 1em;
+            /* Приближение из-за подстановки шрифтов */
+            font-weight: 400;
+            line-height: 1.625;
+            /* Приближение из-за подстановки шрифтов */
+            text-align: left;
         }
     }
-    &__book{
-    	background-color:  rgba(35, 35, 35, 0.9);
+    &__book {
+        background-color: rgba(35, 35, 35, 0.9);
         width: 540px;
         height: 371px;
-        padding:25px;
-      
+        padding: 25px;
     }
 }
 
