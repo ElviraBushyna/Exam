@@ -8,7 +8,7 @@ body {
 
 
     &__bhromaon {
-        background: url(/img/section1.jpg) 50% no-repeat;
+        background: url(../img/section1.jpg) 50% no-repeat;
         background-size: cover;
         padding: 250px 225px 100px;
     }
@@ -18,7 +18,7 @@ body {
         height: 80px;
     }
     &__choose-us {
-        background: url(/img/section_choose.jpg) 50% no-repeat;
+        background: url(../img/section_choose.jpg) 50% no-repeat;
         background-size: cover;
     }
     &__icons {
@@ -28,7 +28,7 @@ body {
     }
     &__book-1 {
         height: 700px;
-        background: url(/img/book_1.jpg) 50% no-repeat;
+        background: url(../img/book_1.jpg) 50% no-repeat;
         background-size: cover;
     }
 }

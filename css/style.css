@@ -6,14 +6,14 @@ body {
 .ba-section {
   padding: 0 330px; }
   .ba-section__bhromaon {
-    background: url(/img/section1.jpg) 50% no-repeat;
+    background: url(../img/section1.jpg) 50% no-repeat;
     background-size: cover;
     padding: 250px 225px 100px; }
   .ba-section__menu {
     background-color: #5474fd;
     height: 80px; }
   .ba-section__choose-us {
-    background: url(/img/section_choose.jpg) 50% no-repeat;
+    background: url(../img/section_choose.jpg) 50% no-repeat;
     background-size: cover; }
   .ba-section__icons {
     background-color: #333333;
@@ -21,7 +21,7 @@ body {
     height: 337px; }
   .ba-section__book-1 {
     height: 700px;
-    background: url(/img/book_1.jpg) 50% no-repeat;
+    background: url(../img/book_1.jpg) 50% no-repeat;
     background-size: cover; }
 
 .ba-title {
