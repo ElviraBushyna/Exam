@@ -23,7 +23,13 @@ body {
   .ba-section__book-1 {
     height: 700px;
     background: url(../img/book_1.jpg) 50% no-repeat;
-    background-size: cover; }
+    background-size: cover;
+    padding-top: 230px; }
+  .ba-section__book-2 {
+    height: 700px;
+    background: url(../img/book_2.jpg) 50% no-repeat;
+    background-size: cover;
+    padding-top: 12%; }
 
 .ba-title {
   font-family: Josefin Sans, sans-serif;
@@ -135,6 +141,14 @@ body {
     -ms-flex-align: center;
     align-items: center;
     z-index: 4; }
+  .ba-conteiner__book-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row; }
 
 a {
   text-align: center; }
@@ -182,6 +196,8 @@ a {
 
 .ba-width-1-2 {
   width: 50%; }
+  .ba-width-1-2--book {
+    width: 50%; }
 
 .ba-menu-list {
   padding-top: 15px;
@@ -264,8 +280,6 @@ a {
 
 .ba-article__book {
   background-color: rgba(35, 35, 35, 0.9);
-  width: 540px;
-  height: 371px;
   padding: 25px; }
 
 .ba-button--chose-us {
@@ -285,22 +299,23 @@ a {
   .ba-img__1 {
     float: left;
     padding-left: 12%;
-    margin-bottom: 3,7%; }
+    margin-bottom: 20px; }
   .ba-img__2 {
     float: right; }
 
-.ba-icon__img {
-  border-radius: 50%;
-  background-color: #333333;
-  width: 65px;
-  height: 65px; }
-
-.ba-icon__title {
-  color: #e8e8e8;
-  font-size: 2.25em;
-  font-weight: 400;
-  line-height: 0.722;
-  text-align: center; }
+.ba-icon {
+  margin: 2px; }
+  .ba-icon__img {
+    border-radius: 50%;
+    background-color: #333333;
+    width: 65px;
+    height: 65px; }
+  .ba-icon__title {
+    color: #e8e8e8;
+    font-size: 2.25em;
+    font-weight: 400;
+    line-height: 0.722;
+    text-align: center; }
 
 .ba-img__conteiner {
   width: 98px;
@@ -325,3 +340,6 @@ a {
 
 .dots-2 {
   left: 48%; }
+
+.ba-invisible {
+  display: none; }
